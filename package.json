@@ -1,0 +1,19 @@
+{
+  "name": "wk2teamassignment",
+  "version": "1.0.0",
+  "description": "week 2 team assignment",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nr1cha/CSE341WebServicesWeek02.git"
+  },
+  "author": "nick richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nr1cha/CSE341WebServicesWeek02/issues"
+  },
+  "homepage": "https://github.com/Nr1cha/CSE341WebServicesWeek02#readme"
+}
