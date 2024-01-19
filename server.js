@@ -3,10 +3,13 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 // my import of routes
-const indexRoutes = require("./routes");
+const indexRoutes = require("./routes/professional");
 // const nameRoutes = require("./routes/name");`
 
-app.use("/", indexRoutes);
+app.use("/professional", indexRoutes);
+app.use("/images/${file}", (req, res) => {
+    res.sendFile(req.params.file)
+})
 // app.use("/name", nameRoutes.router);
 
 app.listen(port, () => {
